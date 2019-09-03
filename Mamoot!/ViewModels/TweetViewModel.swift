@@ -9,9 +9,9 @@
 import Foundation
 import URLImage
 
-public class TweetViewModel: ObservableObject {
+public class TweetViewModel: ObservableObject, Identifiable {
     private let tweet: Tweet
-    
+
     public init(tweet: Tweet) {
         self.tweet = tweet
     }
@@ -61,4 +61,16 @@ public class TweetViewModel: ObservableObject {
         return tweet.content
     }
     
+}
+
+/// Conformance to `Hashable`
+/// Grants us conformance to `Identifiable` for _free_
+extension TweetViewModel: Hashable {
+	public static func == (lhs: TweetViewModel, rhs: TweetViewModel) -> Bool {
+		return lhs.tweet == rhs.tweet
+	}
+
+	public func hash(into hasher: inout Hasher) {
+		hasher.combine(tweet)
+	}
 }
