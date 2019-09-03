@@ -1,9 +1,8 @@
 <img src="./assets/logo.svg" align="center" />
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 <div align="center">
 
-![Swift](https://img.shields.io/badge/Swift-v5.1-orange) ![SwiftUI](https://img.shields.io/badge/-SwiftUI-blue) ![iOS](https://img.shields.io/badge/iOS-13%2B-blueviolet) ![macOS](https://img.shields.io/badge/macOS-Catalina-red)
+![Swift](https://img.shields.io/badge/Swift-v5.1-orange) ![SwiftUI](https://img.shields.io/badge/-SwiftUI-blue) ![iOS](https://img.shields.io/badge/iOS-13%2B-blueviolet) ![macOS](https://img.shields.io/badge/macOS-Catalina-red) [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange)](#contributors)
 
 </div>
 
