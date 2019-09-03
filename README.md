@@ -17,18 +17,8 @@ A minimalist and simple yet powerful Mastodon **and** Twitter client made in Swi
 7. <sup>**EXPERIMENTAL**</sup> Badges for both tweets and toots.
 8. More features you will discover while app development progresses.
 
-## Team
-The awesome **Utile Developers Team** is formed by:
-
-- **Semiak** | <a href="https://github.com/iAlex11" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/github.svg" width="16" height="16" title="500px" alt="500px"></a> <a href="https://www.reddit.com/u/iAlex11" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/reddit.svg" width="16" height="16" title="500px" alt="500px"></a> <a href="https://twitter.com/semiak_" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/twitter.svg" width="16" height="16" title="500px" alt="500px"></a>
-
-- **JoeyPi** | <a href="https://github.com/joePichardo" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/github.svg" width="16" height="16" title="500px" alt="500px"></a> <a href="https://www.reddit.com/user/JoeyPi" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/reddit.svg" width="16" height="16" title="500px" alt="500px"></a>
-
-- **Lygre** | <a href="https://github.com/Lygre" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/github.svg" width="16" height="16" title="500px" alt="500px"></a> <a href="https://twitter.com/Hdbroome" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/twitter.svg" width="16" height="16" title="500px" alt="500px"></a>
-
 ## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+**Mamoot!** is possible thanks to all these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
