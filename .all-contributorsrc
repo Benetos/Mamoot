@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "iAlex11",
+      "name": "Alex M.",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/28487357?v=4",
+      "profile": "http://ialex11.github.io",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Mamoot",
+  "projectOwner": "iAlex11",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
