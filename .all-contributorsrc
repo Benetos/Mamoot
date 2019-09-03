@@ -4,7 +4,7 @@
   ],
   "imageSize": 100,
   "commit": false,
-  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange)](#Team)",
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/contributors-<%= contributors.length %>-orange)](#Team)",
   "contributors": [
     {
       "login": "iAlex11",
