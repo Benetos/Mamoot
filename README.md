@@ -1,4 +1,5 @@
 <img src="./assets/logo.svg" align="center" />
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 <div align="center">
 
@@ -25,3 +26,19 @@ The awesome **Utile Developers Team** is formed by:
 - **JoeyPi** | <a href="https://github.com/joePichardo" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/github.svg" width="16" height="16" title="500px" alt="500px"></a> <a href="https://www.reddit.com/user/JoeyPi" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/reddit.svg" width="16" height="16" title="500px" alt="500px"></a>
 
 - **Lygre** | <a href="https://github.com/Lygre" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/github.svg" width="16" height="16" title="500px" alt="500px"></a> <a href="https://twitter.com/Hdbroome" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/twitter.svg" width="16" height="16" title="500px" alt="500px"></a>
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="http://ialex11.github.io"><img src="https://avatars3.githubusercontent.com/u/28487357?v=4" width="100px;" alt="Alex M."/><br /><sub><b>Alex M.</b></sub></a><br /><a href="https://github.com/iAlex11/Mamoot/commits?author=iAlex11" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
