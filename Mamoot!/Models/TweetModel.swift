@@ -9,7 +9,7 @@
 import Foundation
 
 // MARK: - Tweet
-public class Tweet {
+public struct Tweet {
     public struct Profile {
         let customName: String
         let userName: String
