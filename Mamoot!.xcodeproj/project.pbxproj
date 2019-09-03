@@ -3,25 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		FA28D515231D6CE400780A42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28D514231D6CE400780A42 /* AppDelegate.swift */; };
 		FA28D517231D6CE400780A42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28D516231D6CE400780A42 /* SceneDelegate.swift */; };
-		FA28D519231D6CE400780A42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28D518231D6CE400780A42 /* ContentView.swift */; };
-		FA28D51B231D6CE700780A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA28D51A231D6CE700780A42 /* Assets.xcassets */; };
-		FA28D51E231D6CE700780A42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA28D51D231D6CE700780A42 /* Preview Assets.xcassets */; };
-		FA28D521231D6CE700780A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA28D51F231D6CE700780A42 /* LaunchScreen.storyboard */; };
-		FA28D52B231D70D200780A42 /* beta-warning.svg in Resources */ = {isa = PBXBuildFile; fileRef = FA28D52A231D70D200780A42 /* beta-warning.svg */; };
-		FA28D52D231D7E8500780A42 /* logo.svg in Resources */ = {isa = PBXBuildFile; fileRef = FA28D52C231D7E8500780A42 /* logo.svg */; };
+		FA28D519231D6CE400780A42 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28D518231D6CE400780A42 /* TabController.swift */; };
+		FA28D535231DB56600780A42 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28D534231DB56600780A42 /* HomePageView.swift */; };
+		FA28D536231DB63700780A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA28D51A231D6CE700780A42 /* Assets.xcassets */; };
+		FA28D537231DB63A00780A42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA28D51D231D6CE700780A42 /* Preview Assets.xcassets */; };
+		FA28D539231DC50300780A42 /* TweetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28D538231DC50300780A42 /* TweetModel.swift */; };
+		FA28D53B231E47C500780A42 /* beta-warning.png in Resources */ = {isa = PBXBuildFile; fileRef = FA28D53A231E47C500780A42 /* beta-warning.png */; };
+		FA28D53D231E5CA400780A42 /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28D53C231E5CA400780A42 /* TweetView.swift */; };
+		FA28D540231E6BDA00780A42 /* TweetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28D53F231E6BDA00780A42 /* TweetViewModel.swift */; };
+		FA28D542231E6F7F00780A42 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28D541231E6F7F00780A42 /* HelperFunctions.swift */; };
+		FA28D545231EBC5500780A42 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = FA28D544231EBC5500780A42 /* URLImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA28D511231D6CE400780A42 /* Mamoot!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mamoot!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA28D514231D6CE400780A42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA28D516231D6CE400780A42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA28D518231D6CE400780A42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA28D518231D6CE400780A42 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
 		FA28D51A231D6CE700780A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA28D51D231D6CE700780A42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA28D520231D6CE700780A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,6 +33,12 @@
 		FA28D528231D6DB400780A42 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FA28D52A231D70D200780A42 /* beta-warning.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "beta-warning.svg"; sourceTree = "<group>"; };
 		FA28D52C231D7E8500780A42 /* logo.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = logo.svg; sourceTree = "<group>"; };
+		FA28D534231DB56600780A42 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		FA28D538231DC50300780A42 /* TweetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetModel.swift; sourceTree = "<group>"; };
+		FA28D53A231E47C500780A42 /* beta-warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beta-warning.png"; sourceTree = "<group>"; };
+		FA28D53C231E5CA400780A42 /* TweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetView.swift; sourceTree = "<group>"; };
+		FA28D53F231E6BDA00780A42 /* TweetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewModel.swift; sourceTree = "<group>"; };
+		FA28D541231E6F7F00780A42 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA28D545231EBC5500780A42 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +74,13 @@
 		FA28D513231D6CE400780A42 /* Mamoot! */ = {
 			isa = PBXGroup;
 			children = (
+				FA28D52E231DB53B00780A42 /* Models */,
+				FA28D53E231E6BCD00780A42 /* ViewModels */,
+				FA28D530231DB53C00780A42 /* Views */,
+				FA28D541231E6F7F00780A42 /* HelperFunctions.swift */,
 				FA28D514231D6CE400780A42 /* AppDelegate.swift */,
 				FA28D516231D6CE400780A42 /* SceneDelegate.swift */,
-				FA28D518231D6CE400780A42 /* ContentView.swift */,
+				FA28D518231D6CE400780A42 /* TabController.swift */,
 				FA28D51A231D6CE700780A42 /* Assets.xcassets */,
 				FA28D51F231D6CE700780A42 /* LaunchScreen.storyboard */,
 				FA28D522231D6CE700780A42 /* Info.plist */,
@@ -85,10 +100,36 @@
 		FA28D529231D70D200780A42 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				FA28D53A231E47C500780A42 /* beta-warning.png */,
 				FA28D52C231D7E8500780A42 /* logo.svg */,
 				FA28D52A231D70D200780A42 /* beta-warning.svg */,
 			);
 			path = assets;
+			sourceTree = "<group>";
+		};
+		FA28D52E231DB53B00780A42 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA28D538231DC50300780A42 /* TweetModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA28D530231DB53C00780A42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA28D534231DB56600780A42 /* HomePageView.swift */,
+				FA28D53C231E5CA400780A42 /* TweetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA28D53E231E6BCD00780A42 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA28D53F231E6BDA00780A42 /* TweetViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +148,9 @@
 			dependencies = (
 			);
 			name = "Mamoot!";
+			packageProductDependencies = (
+				FA28D544231EBC5500780A42 /* URLImage */,
+			);
 			productName = "Mamoot!";
 			productReference = FA28D511231D6CE400780A42 /* Mamoot!.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +179,9 @@
 				Base,
 			);
 			mainGroup = FA28D508231D6CE400780A42;
+			packageReferences = (
+				FA28D543231EBC5500780A42 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = FA28D512231D6CE400780A42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -149,11 +196,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA28D521231D6CE700780A42 /* LaunchScreen.storyboard in Resources */,
-				FA28D52B231D70D200780A42 /* beta-warning.svg in Resources */,
-				FA28D52D231D7E8500780A42 /* logo.svg in Resources */,
-				FA28D51E231D6CE700780A42 /* Preview Assets.xcassets in Resources */,
-				FA28D51B231D6CE700780A42 /* Assets.xcassets in Resources */,
+				FA28D53B231E47C500780A42 /* beta-warning.png in Resources */,
+				FA28D537231DB63A00780A42 /* Preview Assets.xcassets in Resources */,
+				FA28D536231DB63700780A42 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +210,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA28D515231D6CE400780A42 /* AppDelegate.swift in Sources */,
+				FA28D542231E6F7F00780A42 /* HelperFunctions.swift in Sources */,
+				FA28D540231E6BDA00780A42 /* TweetViewModel.swift in Sources */,
+				FA28D539231DC50300780A42 /* TweetModel.swift in Sources */,
 				FA28D517231D6CE400780A42 /* SceneDelegate.swift in Sources */,
-				FA28D519231D6CE400780A42 /* ContentView.swift in Sources */,
+				FA28D535231DB56600780A42 /* HomePageView.swift in Sources */,
+				FA28D53D231E5CA400780A42 /* TweetView.swift in Sources */,
+				FA28D519231D6CE400780A42 /* TabController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +410,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA28D543231EBC5500780A42 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA28D544231EBC5500780A42 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA28D543231EBC5500780A42 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA28D509231D6CE400780A42 /* Project object */;
 }
