@@ -13,7 +13,9 @@ struct TabController: View {
     
     var body: some View {
         TabView(selection: $selection){
-            HomePageView()
+			// TODO: This needs to be changed.
+			/// We'll inject an object into the environment here, rather than passing static data
+			HomePageView(tweets: [.tweetExample])
                 .tabItem {
                     VStack {
                         Image(systemName: "house.fill")

@@ -9,11 +9,15 @@
 import SwiftUI
 
 struct HomePageView: View {
-    
+
+	var tweets: [Tweet]
+
     var body: some View {
         NavigationView {
-            List(0 ..< 5) { item in
-                TweetView(model: exampleTweetViewModel)
+			List {
+				ForEach(tweets.map({ TweetViewModel(tweet: $0) }), id: \.self) { tweetVM in
+					TweetView(model: tweetVM)
+				}
             }
             .navigationBarTitle("Your feed")
         }
@@ -22,6 +26,6 @@ struct HomePageView: View {
 
 struct HomePageView_Previews: PreviewProvider {
     static var previews: some View {
-        HomePageView()
+		HomePageView(tweets: Tweet.generateSample(size: 5))
     }
 }
