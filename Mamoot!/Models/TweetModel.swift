@@ -48,7 +48,7 @@ public struct Tweet: Hashable, Codable, Identifiable {
 extension Tweet {
 	static let tweetExample = Tweet(author: exampleAuthor, date: Date(), comments: 100, likes: 1000, retweets: 9999999, content: "Hey, this is an example large tweet that will likely take all the 280 character limit Twitter has, but not the 500 characters limit of Mastodon.\n\nIt also has emojis 😉😴🇪🇸🥳")
 
-	static func generateSample(_ size: Int) -> [Tweet] {
+	static func generateSample(size: Int) -> [Tweet] {
 		var sampleData = [Tweet]()
 		for _ in 1...size {
 			sampleData.append(.tweetExample)
