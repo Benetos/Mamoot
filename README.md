@@ -22,4 +22,5 @@ The awesome **Utile Developers Team** is formed by:
 
 - **Semiak** | <a href="https://github.com/iAlex11" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/github.svg" width="16" height="16" title="500px" alt="500px"></a> <a href="https://www.reddit.com/u/iAlex11" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/reddit.svg" width="16" height="16" title="500px" alt="500px"></a> <a href="https://twitter.com/semiak_" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/twitter.svg" width="16" height="16" title="500px" alt="500px"></a>
 
+
 - **JoeyPi** | <a href="https://github.com/joePichardo" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/github.svg" width="16" height="16" title="500px" alt="500px"></a> <a href="https://www.reddit.com/user/JoeyPi" rel="some text"><img href="example.com" src="https://ialex11.github.io/assets/reddit.svg" width="16" height="16" title="500px" alt="500px"></a>
