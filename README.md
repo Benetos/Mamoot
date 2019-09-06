@@ -6,6 +6,8 @@
 
 </div>
 
+> **Note**: *Mamoot! is under heavy development and is obviously far from complete at this moment. We're currently looking for more people to work with us, so you can help us and discuss development on our [discord server](https://discord.gg/a6UsGgG).*
+
 A minimalist and simple yet powerful Mastodon **and** Twitter client made in SwiftUI.<br>
 **Mamoot!** allows users to access all the features Mastodon and Twitter provide and adds even more to them. Some examples are:
 
