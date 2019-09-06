@@ -13,13 +13,10 @@ struct HomePageView: View {
 	var tweets: [Tweet]
 
     var body: some View {
-        NavigationView {
-			List {
-				ForEach(tweets.map({ TweetViewModel(tweet: $0) }), id: \.self) { tweetVM in
-					TweetView(model: tweetVM)
-				}
+        List {
+            ForEach(tweets.map({ TweetViewModel(tweet: $0) }), id: \.self) { tweetVM in
+                TweetView(model: tweetVM)
             }
-            .navigationBarTitle("Your feed")
         }
     }
 }

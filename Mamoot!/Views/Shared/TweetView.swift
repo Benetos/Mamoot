@@ -38,7 +38,11 @@ struct TweetView: View {
                         Text(verbatim: String(model.comments))
                                 .foregroundColor(.gray)
                                 .lineLimit(2)
-                    }.padding()
+                    }
+                        .padding(.top)
+                        .padding(.bottom)
+                        .padding(.trailing)
+                        .font(.subheadline)
                     
                     Button(action: { self.isRetweeted.toggle() }) {
                         HStack {
@@ -47,7 +51,9 @@ struct TweetView: View {
                             Text(verbatim: String(model.retweets))
                                 .foregroundColor( isRetweeted ? .green : .gray)
                                 .lineLimit(2)
-                        }.padding()
+                        }
+                        .padding()
+                        .font(.subheadline)
                     }
                     
                     Button(action: {
@@ -64,7 +70,9 @@ struct TweetView: View {
                                 .foregroundColor( isLiked ? .red : .gray)
                                 .foregroundColor(.red)
                                 .lineLimit(2)
-                        }.padding()
+                        }
+                        .padding()
+                        .font(.subheadline)
                     }
                     
                     

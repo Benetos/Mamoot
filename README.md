@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Swift](https://img.shields.io/badge/Swift-v5.1-orange) ![SwiftUI](https://img.shields.io/badge/-SwiftUI-blue) ![iOS](https://img.shields.io/badge/iOS-13%2B-blueviolet) ![macOS](https://img.shields.io/badge/macOS-Catalina-red) [![All Contributors](https://img.shields.io/badge/contributors-3-orange)](#Team)
+![Swift](https://img.shields.io/badge/Swift-v5.1-orange) ![SwiftUI](https://img.shields.io/badge/-SwiftUI-blue) ![iOS](https://img.shields.io/badge/iOS-13%2B-blueviolet) ![macOS](https://img.shields.io/badge/macOS-Catalina-red) [![All Contributors](https://img.shields.io/badge/contributors-3-orange)](#Contributors)
 
 </div>
 
@@ -35,3 +35,14 @@ A minimalist and simple yet powerful Mastodon **and** Twitter client made in Swi
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Project structure
+Mamoot! aims to be a big project, and for being easier for mortals to maintain it, it is organized as the following:
+
+1.  **Extensions**: All the shared extensions used in the project. For page-specific extensions check each page's extension folder, if available.
+2. **Launch**: Code run at launch, duh.
+3. **Models**: Project models.
+4. **View Models**: Project view models.
+5. **Views**: SwiftUI and UIKit views.
+    - **Shared**:  shared views of the project.
+    - **Components**: Page-specific views.
